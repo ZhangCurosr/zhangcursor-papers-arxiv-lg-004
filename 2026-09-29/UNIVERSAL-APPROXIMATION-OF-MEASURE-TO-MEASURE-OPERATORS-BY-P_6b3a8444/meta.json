@@ -4,5 +4,27 @@
  "title": "UNIVERSAL-APPROXIMATION-OF-MEASURE-TO-MEASURE-OPERATORS-BY-P",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-09-29 19:07:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/4426a714-136b-4ab8-bc79-612fb34baace.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/4426a714-136b-4ab8-bc79-612fb34baace.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:07:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "pushforward approximation",
+    "universal approximation",
+    "measure-to-measure operator",
+    "Wasserstein distance",
+    "transformer theory",
+    "uniform level set condition",
+    "non-atomic measure"
+   ],
+   "field": "算子学习与变换器理论",
+   "innovations": [
+    "证明原子测度构成推前万能逼近的本质障碍并构造定量下界",
+    "引入一致水平集条件并在该条件下建立连续推前模型的万能逼近定理",
+    "将逼近框架推广至连续变化源测度并连接cross-attention架构"
+   ]
+  }
+ }
 }

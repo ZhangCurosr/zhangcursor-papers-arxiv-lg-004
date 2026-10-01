@@ -4,5 +4,31 @@
  "title": "Uncertainty-Quantification-in-Cardiac-Model-Personalisation",
  "token": "sk-U9tZkJPsQ...",
  "created_at": "2026-09-29 19:08:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/09ba1c6c-1873-447c-91dd-91840efe7c93.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/09ba1c6c-1873-447c-91dd-91840efe7c93.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:07:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Simulation-Based Inference",
+    "Uncertainty Quantification",
+    "Cardiac Model Personalisation",
+    "Shear Wave Elastography",
+    "Neural Posterior Estimation",
+    "0D Cardiovascular Model"
+   ],
+   "field": "心脏生物力学仿真与贝叶斯反问题",
+   "innovations": [
+    "提出SWE引导的主动心肌参数概率化个性化框架，结合hybrid summary与diagnostic prior-support评估",
+    "构建跨受试者池化amortized NPE流水线，实现一次训练多受试者快速后验推断",
+    "引入后验预测与优化点估计的诊断对照，明确参数不确定性量化与唯一识别的区别"
+   ],
+   "benchmarks": [
+    "CMA-ES optimisation baseline",
+    "Prior predictive median",
+    "Synthetic recovery check (N=400)"
+   ]
+  }
+ }
 }

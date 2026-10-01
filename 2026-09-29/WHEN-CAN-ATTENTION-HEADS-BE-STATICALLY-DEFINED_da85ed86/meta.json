@@ -4,5 +4,35 @@
  "title": "WHEN-CAN-ATTENTION-HEADS-BE-STATICALLY-DEFINED",
  "token": "sk-YployDpk7...",
  "created_at": "2026-09-29 19:09:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/0a57844c-fec1-49d2-8a0c-fac3743555e3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/0a57844c-fec1-49d2-8a0c-fac3743555e3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:08:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "attention freezing",
+    "efficient training",
+    "fixed attention patterns",
+    "kernel fusion",
+    "model compression"
+   ],
+   "field": "高效大语言模型训练与推理",
+   "innovations": [
+    "提出SAF（选择性注意力冻结）策略，基于注意力方差选择低变化头并用紧凑位置偏好表示固定其注意力模式",
+    "设计融合内核在同一前向pass中同时执行普通FlashAttention与固定模式头，跳过score计算与softmax",
+    "在线性存储O(T)下实现固定因果模式拟合，并在124M和1B模型上验证跨阶段加速与泛化收益"
+   ],
+   "benchmarks": [
+    "FineWeb-Edu",
+    "SST-2",
+    "BoolQ",
+    "QuALITY",
+    "MQAR",
+    "HellaSwag",
+    "PIQA",
+    "ARC-Easy"
+   ]
+  }
+ }
 }

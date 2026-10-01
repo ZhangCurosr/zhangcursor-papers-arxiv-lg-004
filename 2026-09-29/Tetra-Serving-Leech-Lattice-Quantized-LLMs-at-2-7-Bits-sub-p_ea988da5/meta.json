@@ -4,5 +4,31 @@
  "title": "Tetra-Serving-Leech-Lattice-Quantized-LLMs-at-2-7-Bits-sub-p",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-09-29 19:07:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/af2fc9e4-502b-4a9e-b3ec-cda91faff613.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/af2fc9e4-502b-4a9e-b3ec-cda91faff613.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 11:07:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Leech lattice",
+    "LLM quantization",
+    "trellis decoding",
+    "2-bit quantization",
+    "low-bit inference",
+    "Golay code",
+    "GPU kernel"
+   ],
+   "field": "大语言模型低比特量化与高效推理",
+   "innovations": [
+    "基于Golay码trellis的24维Leech格高效解码方案，每weight仅读2.148 bits",
+    "混合精度配方：row scale微调+int4关键投影+4-bit嵌入表实现2.7 bits/parameter",
+    "融合解码与GEMV的kernel，6次table load完成24权重解码"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "GSM8K"
+   ]
+  }
+ }
 }
