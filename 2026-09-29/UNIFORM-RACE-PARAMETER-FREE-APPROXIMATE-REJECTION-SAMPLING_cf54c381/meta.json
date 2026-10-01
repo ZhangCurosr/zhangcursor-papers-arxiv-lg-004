@@ -4,5 +4,10 @@
  "title": "UNIFORM-RACE-PARAMETER-FREE-APPROXIMATE-REJECTION-SAMPLING",
  "token": "sk-0H4qcWJwC...",
  "created_at": "2026-09-29 19:09:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/5698cf43-7558-4481-9f83-bc4043457fa6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/5698cf43-7558-4481-9f83-bc4043457fa6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 16:51:37",
+  "chunks": 4
+ }
 }
