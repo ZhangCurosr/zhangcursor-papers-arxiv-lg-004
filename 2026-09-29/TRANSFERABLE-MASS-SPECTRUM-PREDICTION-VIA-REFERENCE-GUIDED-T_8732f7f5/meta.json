@@ -4,5 +4,10 @@
  "title": "TRANSFERABLE-MASS-SPECTRUM-PREDICTION-VIA-REFERENCE-GUIDED-T",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-09-29 19:08:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/58d0e99b-430f-40b7-b42d-ccc97583879d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/58d0e99b-430f-40b7-b42d-ccc97583879d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:33:59",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,10 @@
  "title": "WHEN-TEXT-MATTERS-DESIGN-PRINCIPLES-FOR-VISUAL-TOKEN-PRUNING",
  "token": "sk-6puwYp2kk...",
  "created_at": "2026-09-29 19:08:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f76243a2-cfb1-4f84-8350-8dc4b1d4af3d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f76243a2-cfb1-4f84-8350-8dc4b1d4af3d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:36:09",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,31 @@
  "title": "TRANSFERABLE-MASS-SPECTRUM-PREDICTION-VIA-REFERENCE-GUIDED-T",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-09-29 07:56:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/58d0e99b-430f-40b7-b42d-ccc97583879d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/58d0e99b-430f-40b7-b42d-ccc97583879d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:33:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "MS/MS spectrum prediction",
+    "test-time training",
+    "domain adaptation",
+    "mass spectrometry",
+    "retrieval-augmented learning",
+    "spectral similarity"
+   ],
+   "field": "计算质谱学",
+   "innovations": [
+    "检索引导的测试时专业化框架，利用参考光谱校准预训练预测器",
+    "支持校准的教师一致性损失，bin级可靠性加权",
+    "冻结碎片生成器+强度模型在线适配+漂移控制机制"
+   ],
+   "benchmarks": [
+    "MassSpecGym",
+    "NPLIB1",
+    "GNPS application libraries"
+   ]
+  }
+ }
 }

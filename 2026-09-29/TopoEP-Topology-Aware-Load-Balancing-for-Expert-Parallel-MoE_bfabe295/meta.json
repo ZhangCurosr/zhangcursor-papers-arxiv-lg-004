@@ -4,5 +4,31 @@
  "title": "TopoEP-Topology-Aware-Load-Balancing-for-Expert-Parallel-MoE",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-09-29 19:07:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/87f90674-30a0-4120-a71c-67151a9d4763.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/87f90674-30a0-4120-a71c-67151a9d4763.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:35:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Mixture-of-Experts",
+    "Expert Parallelism",
+    "Load Balancing",
+    "GPU-native Planning",
+    "Topology-aware Scheduling",
+    "MoE Training"
+   ],
+   "field": "大规模 MoE 分布式训练系统优化",
+   "innovations": [
+    "GPU 原生确定性两阶段拓扑感知求解器，联合优化跨节点放置与节点内细化",
+    "设备发起的 TMA/NCCL GIN 复制传输与两块流水线重叠通信与计算",
+    "所有 rank 独立生成 bitwise-identical 计划，消除主机同步与计划广播"
+   ],
+   "benchmarks": [
+    "Qwen3-30B-A3B",
+    "GLM-4.5-Air",
+    "DeepSeek-V2"
+   ]
+  }
+ }
 }

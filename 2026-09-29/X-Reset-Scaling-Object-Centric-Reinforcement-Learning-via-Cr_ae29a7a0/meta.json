@@ -4,5 +4,31 @@
  "title": "X-Reset-Scaling-Object-Centric-Reinforcement-Learning-via-Cr",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-09-29 19:07:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/0ded1174-a835-4bf0-ba99-7d97672266a8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/0ded1174-a835-4bf0-ba99-7d97672266a8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:36:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "dexterous manipulation",
+    "reinforcement learning",
+    "object-centric policy",
+    "reset distribution",
+    "human demonstration",
+    "sim-to-real transfer",
+    "cross-embodiment"
+   ],
+   "field": "灵巧操作强化学习",
+   "innovations": [
+    "将 kinematically retargeted 人手-物体状态作为 RL 重置分布以解决从零探索难题",
+    "task-agnostic object-centric reward 配合演示重置在 20 物体上实现 66.6% 重定向成功率",
+    "跨三种末端体感与 unseen 物体 zero-shot 泛化并可作为微调基础"
+   ],
+   "benchmarks": [
+    "DexYCB",
+    "EBench"
+   ]
+  }
+ }
 }

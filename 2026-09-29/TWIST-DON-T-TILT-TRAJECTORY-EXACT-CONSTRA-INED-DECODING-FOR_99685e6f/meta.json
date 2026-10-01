@@ -4,5 +4,34 @@
  "title": "TWIST-DON-T-TILT-TRAJECTORY-EXACT-CONSTRA-INED-DECODING-FOR",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-09-29 08:02:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/2fa321b6-36f6-47f4-94f7-153b386f1e2c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/2fa321b6-36f6-47f4-94f7-153b386f1e2c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:34:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Masked Diffusion Language Models",
+    "Constrained Decoding",
+    "Sequential Monte Carlo",
+    "Feynman-Kac",
+    "Trajectory Bias",
+    "Automaton Constraints",
+    "Doob h-Transform"
+   ],
+   "field": "受约束文本生成",
+   "innovations": [
+    "首次刻画MDLM step-exact解码的轨迹偏差并给出精确分解",
+    "提出TWISTER：基于Feynman-Kac修正的automaton-twisted SMC解码器，用pre-computed partition sum ratios纠正偏差",
+    "证明对于regular language约束，修正势函数可由FFBS已计算量精确导出"
+   ],
+   "benchmarks": [
+    "JSON-Mode-Eval",
+    "OWT-130M",
+    "DREAM-7B-BASE",
+    "DREAMCODER-7B-INST",
+    "LLADA-8B-INST"
+   ]
+  }
+ }
 }

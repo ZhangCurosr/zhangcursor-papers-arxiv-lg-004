@@ -4,5 +4,31 @@
  "title": "eval-unlearn-Benchmarking-unlearning-in-Text-to-Image-Difusi",
  "token": "sk-rXToje7Gi...",
  "created_at": "2026-09-29 19:07:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/50949a22-d2da-4ce3-9d8f-1f92f1204e8a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/50949a22-d2da-4ce3-9d8f-1f92f1204e8a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:36:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "概念遗忘",
+    "文本到图像扩散模型",
+    "模型编辑",
+    "基准评测",
+    "对抗鲁棒性",
+    "插件架构"
+   ],
+   "field": "生成模型安全与可解释性",
+   "innovations": [
+    "统一插件化基准框架整合12种跨类别遗忘技术",
+    "九维标准化指标体系首次整合擦除/鲁棒/质量/保留维度"
+   ],
+   "benchmarks": [
+    "I2P",
+    "COCO 2017",
+    "TIFA",
+    "NGS"
+   ]
+  }
+ }
 }

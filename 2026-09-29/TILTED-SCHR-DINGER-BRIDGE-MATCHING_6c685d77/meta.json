@@ -4,5 +4,30 @@
  "title": "TILTED-SCHR-DINGER-BRIDGE-MATCHING",
  "token": "sk-2QaTYJZfX...",
  "created_at": "2026-09-29 19:09:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/846379d8-6009-496c-80ff-faba48ea77cd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/846379d8-6009-496c-80ff-faba48ea77cd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:33:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Schrödinger Bridge",
+    "reward tilting",
+    "stochastic optimal control",
+    "diffusion bridge",
+    "post-training alignment",
+    "adjoint matching"
+   ],
+   "field": "生成模型与最优输运",
+   "innovations": [
+    "提出相对SOC formulation将预训练SB的奖励倾斜转化为增量控制学习，无需重新访问原始目标分布",
+    "设计Controller-Corrector交替优化的TSBM算法并给出严格收敛证明",
+    "首次在SB上实现精确边际奖励倾斜，在CelebA/MNIST上优于DPS/CondSMC等近似方法且无reward hacking"
+   ],
+   "benchmarks": [
+    "Colored MNIST",
+    "CelebA 128x128"
+   ]
+  }
+ }
 }

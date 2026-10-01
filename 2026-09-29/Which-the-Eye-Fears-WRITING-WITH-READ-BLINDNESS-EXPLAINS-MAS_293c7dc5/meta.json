@@ -4,5 +4,32 @@
  "title": "Which-the-Eye-Fears-WRITING-WITH-READ-BLINDNESS-EXPLAINS-MAS",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-09-29 19:06:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/405a2800-6962-4336-94bf-7611c8cca151.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/405a2800-6962-4336-94bf-7611c8cca151.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:36:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Massive Activations",
+    "read-blindness",
+    "mechanistic interpretability",
+    "read-write asymmetry",
+    "FFN amplifier",
+    "Hessian curvature",
+    "transformer"
+   ],
+   "field": "Transformer 可解释性与内部机制分析",
+   "innovations": [
+    "提出读-写不对称性作为 MA 跨层持久的统一机制，注意力与 FFN 在读侧盲视 MA 坐标而写侧持续写入",
+    "发现读盲性在训练时序上先于 FFN 放大器专业化出现，推翻 FFN 放大器为主因的假设",
+    "证明 MA 状态由优化器主动维护（AdamW saved state 产生正向压力，读侧 Hessian 曲率更高）"
+   ],
+   "benchmarks": [
+    "Llama 135M/1.28B/2.56B",
+    "Qwen3 1.7B",
+    "RegMix 5B token"
+   ]
+  }
+ }
 }

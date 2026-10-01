@@ -4,5 +4,36 @@
  "title": "Teach-to-Learn-Hint-Annealing-for-Self-improving-LLM-Reasoni",
  "token": "sk-qcw8nHe5i...",
  "created_at": "2026-09-29 19:08:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f0135c14-f50e-43ee-a957-b75dc5fa6136.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f0135c14-f50e-43ee-a957-b75dc5fa6136.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:34:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RLVR",
+    "GRPO",
+    "hint-based RL",
+    "self-improving LLM",
+    "mathematical reasoning",
+    "gradient projection",
+    "reward shift"
+   ],
+   "field": "大语言模型推理强化学习",
+   "innovations": [
+    "发现hinted reward shift现象并系统分析",
+    "提出单策略自教学框架HATCH联合训练hint生成与求解",
+    "在线退火权重+梯度投影双机制缓解shift与梯度冲突"
+   ],
+   "benchmarks": [
+    "Math500",
+    "Minerva Math",
+    "OlympiadBench",
+    "AIME 2024-2026",
+    "AMC 2023",
+    "HMMT 2025",
+    "BRUMO 2025"
+   ]
+  }
+ }
 }

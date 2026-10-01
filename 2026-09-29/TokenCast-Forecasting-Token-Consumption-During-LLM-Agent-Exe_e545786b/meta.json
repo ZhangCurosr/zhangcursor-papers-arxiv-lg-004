@@ -4,5 +4,10 @@
  "title": "TokenCast-Forecasting-Token-Consumption-During-LLM-Agent-Exe",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-09-29 19:06:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/cb321a40-6381-4f6b-9f67-85cbb745b21e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/cb321a40-6381-4f6b-9f67-85cbb745b21e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:35:05",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,31 @@
  "title": "UNIFYING-DISTRIBUTIONAL-TRAINING-FOR-ONE-STEP-VISUAL-GENERAT",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-09-29 19:08:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/1035415b-6be8-44bd-af9e-80bb7542d617.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/1035415b-6be8-44bd-af9e-80bb7542d617.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:35:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "one-step generation",
+    "distributional training",
+    "Wasserstein gradient flow",
+    "Gaussian mixture",
+    "Fréchet loss",
+    "text-to-image"
+   ],
+   "field": "一步视觉生成",
+   "innovations": [
+    "统一分布训练框架，分离建模与差异并通过WGF桥接",
+    "MGFlow高斯混合建模配合质量约束分配与配对传输",
+    "层级分辨率训练提升泛化性"
+   ],
+   "benchmarks": [
+    "ImageNet 256x256",
+    "GenEval",
+    "PickScore"
+   ]
+  }
+ }
 }

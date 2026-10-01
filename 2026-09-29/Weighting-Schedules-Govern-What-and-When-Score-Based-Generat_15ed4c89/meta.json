@@ -4,5 +4,35 @@
  "title": "Weighting-Schedules-Govern-What-and-When-Score-Based-Generat",
  "token": "sk-hN9qFiLuN...",
  "created_at": "2026-09-29 19:07:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b5f1d281-399d-47c5-b741-3c16e65629da.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b5f1d281-399d-47c5-b741-3c16e65629da.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:35:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Score-Based Generative Models",
+    "Weighting Schedule",
+    "Stochastic Interpolants",
+    "Speciation Time",
+    "Flow Matching",
+    "Diffusion Models",
+    "Multimodal Data",
+    "Learning Dynamics"
+   ],
+   "field": "生成模型训练动力学与调度设计",
+   "innovations": [
+    "以有效SNR权重w_eff(Lambda)统一刻画DM/FM/MDLM的特征习得差异",
+    "证明speciation时刻(Lambda~1)是方向与权重联合习得的必要窗口",
+    "导出closed-form增长速率lambda(gamma_i)并在三模态数据上验证层次化collapse"
+   ],
+   "benchmarks": [
+    "Unbalanced GMM",
+    "Hierarchical Quadrimodal GMM",
+    "Imbalanced MNIST (3/6)",
+    "Tinted MNIST",
+    "Human Genome Haplotype (805-SNP MDLM)"
+   ]
+  }
+ }
 }

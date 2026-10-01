@@ -4,5 +4,30 @@
  "title": "TILTED-SCHR-DINGER-BRIDGE-MATCHING",
  "token": "sk-2QaTYJZfX...",
  "created_at": "2026-09-29 08:02:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/846379d8-6009-496c-80ff-faba48ea77cd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/846379d8-6009-496c-80ff-faba48ea77cd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:33:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Schrödinger Bridge",
+    "Reward Tilting",
+    "Stochastic Optimal Control",
+    "Adjoint Matching",
+    "Image Translation",
+    "Post-training Fine-tuning"
+   ],
+   "field": "生成模型与最优输运",
+   "innovations": [
+    "提出以预训练桥P为参考的相对SOC形式化，消去对p1显式依赖",
+    "交替Controller-Corrector Matching算法TSBM，保证exact marginal reward tilting",
+    "证明TSBM在KL意义下收敛至TiltedSB解"
+   ],
+   "benchmarks": [
+    "Colored MNIST",
+    "CelebA 128x128"
+   ]
+  }
+ }
 }

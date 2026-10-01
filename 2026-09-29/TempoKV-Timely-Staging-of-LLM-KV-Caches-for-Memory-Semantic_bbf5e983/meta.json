@@ -4,5 +4,31 @@
  "title": "TempoKV-Timely-Staging-of-LLM-KV-Caches-for-Memory-Semantic",
  "token": "sk-ZGcchfG2c...",
  "created_at": "2026-09-29 19:08:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/1f3a4040-e0e1-45f2-b94e-d34cdeeb9200.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/1f3a4040-e0e1-45f2-b94e-d34cdeeb9200.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:34:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM serving",
+    "KV cache",
+    "CXL memory",
+    "staging timing",
+    "memory-semantic flash",
+    "prefix caching",
+    "TTFT optimization"
+   ],
+   "field": "LLM 推理系统存储与缓存优化",
+   "innovations": [
+    "提出 TTU/TTR 双端时序估计实现 timely staging 提交",
+    "分离命中识别与资源承诺以降低受保护快速层容量占用",
+    "引入 demand 回退与共享 claim 状态机保障未提交命中的可用性"
+   ],
+   "benchmarks": [
+    "NarrativeQA",
+    "LooGLE"
+   ]
+  }
+ }
 }

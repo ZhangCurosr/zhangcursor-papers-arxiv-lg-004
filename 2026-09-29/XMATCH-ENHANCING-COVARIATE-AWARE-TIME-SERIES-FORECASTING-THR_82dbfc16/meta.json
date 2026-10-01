@@ -4,5 +4,30 @@
  "title": "XMATCH-ENHANCING-COVARIATE-AWARE-TIME-SERIES-FORECASTING-THR",
  "token": "sk-0sYDudTcj...",
  "created_at": "2026-09-29 19:08:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/c9ff6e25-473e-4f17-9893-1b9a2db407e3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/c9ff6e25-473e-4f17-9893-1b9a2db407e3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:36:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "时间序列预测",
+    "协变量感知预测",
+    "检索增强",
+    "外生变量匹配",
+    "树结构记忆"
+   ],
+   "field": "多变量时间序列预测",
+   "innovations": [
+    "提出 ProtoTree 层次化树结构，自适应平衡外生模式匹配的精度与历史支持量",
+    "基于信息增益的外生变量排序与 Soft-DTW 聚类构建外生-内生模式关联",
+    "层级自适应匹配机制，同时使用相似度阈值和最小支持量进行分支剪枝"
+   ],
+   "benchmarks": [
+    "EPF benchmark (NP, PJM, BE, FR, DE)",
+    "Energy datasets (Energy, Colbun, Rapel, Sdwpfm1, Sdwpfm2, Sdwpfh1, Sdwpfh2)",
+    "TFB benchmark"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Teacher-Student-Gaps-Are-Not-Enough-Outcome-Guided-On-Policy",
  "token": "sk-B2hxqutYc...",
  "created_at": "2026-09-29 19:08:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/4321bae1-109b-4357-b2d0-ad7db676a15a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/4321bae1-109b-4357-b2d0-ad7db676a15a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:34:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "On-Policy Distillation",
+    "Agent Distillation",
+    "Multi-turn Agents",
+    "Supervision Calibration",
+    "Token-level Gap",
+    "Outcome-Guided Training"
+   ],
+   "field": "多轮自主智能体知识蒸馏",
+   "innovations": [
+    "发现并量化了多轮蒸馏中的监督-收益错配现象，指出局部差距无法保证指导收益",
+    "提出OG-OPD框架，通过配对学生延续执行的结果对比，选择性强化对学生真正有益的轮次监督",
+    "在ALFWorld/ScienceWorld/WebShop三个基准上验证，相比最优基线最高提升7.0个百分点成功率"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "ScienceWorld",
+    "WebShop"
+   ]
+  }
+ }
 }

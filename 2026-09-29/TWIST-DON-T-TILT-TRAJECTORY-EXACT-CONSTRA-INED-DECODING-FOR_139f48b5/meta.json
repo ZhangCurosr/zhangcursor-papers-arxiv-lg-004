@@ -4,5 +4,32 @@
  "title": "TWIST-DON-T-TILT-TRAJECTORY-EXACT-CONSTRA-INED-DECODING-FOR",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-09-29 19:07:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/2fa321b6-36f6-47f4-94f7-153b386f1e2c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/2fa321b6-36f6-47f4-94f7-153b386f1e2c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 04:34:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Masked Diffusion Language Models",
+    "Constrained Decoding",
+    "Trajectory Bias",
+    "Feynman-Kac",
+    "Sequential Monte Carlo",
+    "Regular Languages",
+    "Doob h-transform",
+    "Automaton-Constrained Sampling"
+   ],
+   "field": "扩散语言模型与结构生成",
+   "innovations": [
+    "理论揭示并量化了MDLM步精确约束解码的轨迹偏差",
+    "提出TWISTER算法，首次将自动机扭曲SMC用于MDLM约束解码",
+    "证明费曼-卡茨修正可精确消除偏差且高效可计算"
+   ],
+   "benchmarks": [
+    "JSON-Mode-Eval",
+    "多模型零样本生成评测 (DREAM, DREAMCODER, LLADA, OWT families)"
+   ]
+  }
+ }
 }
